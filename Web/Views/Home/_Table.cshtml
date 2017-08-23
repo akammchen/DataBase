@@ -1,0 +1,32 @@
+﻿@model List<DataBase.Entities.Product>
+
+<table class="table">
+    <tr>
+        <th>@Html.Label("ID")</th>
+        <th>@Html.Label("Name")</th>
+        <th>@Html.Label("Price")</th>
+        <th>@Html.Label("Action")</th>
+    </tr>
+    @foreach (DataBase.Entities.Product item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.ID)</td>
+            <td>@Html.DisplayFor(m => item.Name)</td>
+            <td>@Html.DisplayFor(m => item.Price)</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id = item.ID})
+                @Html.ActionLink("Delete", "Delete", new {id = item.ID})
+            </td>
+        </tr>
+    }
+</table>
+
+<ul class="pagination" style="float: right">
+    <li><a onclick="SearchPrev();"><<</a></li>
+    <li>
+        <a>
+            @ViewData["CurrentPage"] / @ViewData["PageNumber"]
+        </a>
+    </li>
+    <li><a onclick="SearchNext();">>></a></li>
+</ul>

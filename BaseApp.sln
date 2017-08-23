@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{343BD6DB-B498-4715-A764-27A235912CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C470A562-1C3F-46AE-8045-593264ABBF28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343BD6DB-B498-4715-A764-27A235912CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343BD6DB-B498-4715-A764-27A235912CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343BD6DB-B498-4715-A764-27A235912CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343BD6DB-B498-4715-A764-27A235912CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C470A562-1C3F-46AE-8045-593264ABBF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C470A562-1C3F-46AE-8045-593264ABBF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C470A562-1C3F-46AE-8045-593264ABBF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C470A562-1C3F-46AE-8045-593264ABBF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

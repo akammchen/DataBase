@@ -1,0 +1,18 @@
+﻿@model List<DataBase.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <input type="text" id="SearchInput" />
+        <input type="button" value="SEARCH" onclick="SearchProducts();" id="ButtonSearch" />
+    </div>
+</div>
+<div id="partiall">
+    @{Html.RenderPartial("~/Views/Home/_Table.cshtml", Model);}
+</div>

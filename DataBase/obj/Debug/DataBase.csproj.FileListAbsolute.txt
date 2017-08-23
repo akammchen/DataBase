@@ -1,0 +1,13 @@
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\DataBase.dll.config
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\DataBase.dll
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\DataBase.pdb
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\EntityFramework.dll
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\EntityFramework.SqlServer.dll
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\EntityFramework.xml
+F:\PROJEKTY\DataBase\DataBase\bin\Debug\EntityFramework.SqlServer.xml
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\DataBase.dll
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\DataBase.pdb
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\EntityFramework.CodeFirst.Migrations.Init.resources
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+F:\PROJEKTY\DataBase\DataBase\obj\Debug\EntityFramework.CodeFirst.Migrations.req_name.resources
